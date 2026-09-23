@@ -57,6 +57,8 @@ The lab was based on Royden Rebello's pfSense/Kali/Ubuntu walkthrough, but I ada
 | pfSense LAN (`em1`) | Internal Network `LabNet` | `192.168.1.1/24` | Gateway, DHCP, and DNS for lab LAN |
 | Ubuntu | Internal Network `LabNet` | `192.168.1.100/24` | Protected victim/workload |
 
+For a deeper explanation of the packet path, VirtualBox network modes, DHCP/DNS roles, and why Kali needed a static route, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 ## 1. pfSense and VirtualBox Configuration
 
 The pfSense VM uses two virtual NICs:
